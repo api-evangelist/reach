@@ -1,7 +1,32 @@
 aid: reach
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reach.png
 name: Reach
-description: Reach is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Reach Power (Reach Labs) is a Y Combinator-backed (S2015) wireless power
+  company building long-range wireless energy distribution networks, aiming to
+  "do for power what Wi-Fi did for data." Its patented, AI-driven power-beaming
+  systems use adaptive metamaterial antennas to steer electromagnetic waves and
+  deliver electricity through the air to multiple devices simultaneously,
+  scaling from microwatts to kilowatts across both mobile and stationary
+  transmitters. Reach serves defense and intelligence, manufacturing and
+  logistics, and public safety markets, powering autonomous vehicles, industrial
+  robotics, sensors, and drones. Partners and customers include the U.S.
+  Department of Defense, NASA, DARPA, the U.S. Army and Air Force, Aisin/Toyota,
+  and Panasonic. The company is headquartered in San Francisco. As of this
+  profile, Reach publishes no public developer API, SDK, or developer portal;
+  this is a hardware and energy-infrastructure company rather than an API
+  platform.
 url: https://raw.githubusercontent.com/api-evangelist/reach/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +36,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Wireless Power
+- Energy
+- Hardware
+- Defense
+- Robotics
+- Climate
+- IoT
 apis: []
+common:
+- type: DomainSecurity
+  url: security/reach-domain-security.yml
+- type: Website
+  url: https://reachpower.com
+- type: Support
+  url: https://reachpower.com/contact/
+- type: Blog
+  url: https://reachpower.com/press
+- type: TermsOfService
+  url: https://reachpower.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://reachpower.com/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

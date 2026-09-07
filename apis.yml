@@ -59,6 +59,8 @@ tags:
 - IoT
 apis: []
 common:
+- type: FAQ
+  url: https://reachpower.com/faq/
 - type: DomainSecurity
   url: security/reach-domain-security.yml
 - type: Website
